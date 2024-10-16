@@ -1,0 +1,133 @@
+
+body, html {
+  height: 220%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;; /* Couleur de fond claire pour contraste */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.content {
+  background-color: black; /* Fond blanc pour le contenu */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center; /* Centrer le texte */
+}
+
+.image {
+    width: 200px; /* Ajuste la taille selon tes besoins */
+    height: 200px; /* Assure-toi que largeur et hauteur sont égales */
+    border-radius: 50%; /* Forme de rond */
+    object-fit: cover; /* Pour assurer que l'image soit bien ajustée */
+    max-width: 100%;
+    height: auto;
+    
+}
+
+header {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.github {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  border: groove 1em black;
+  margin-top: 3px;
+}
+
+.frontend-mentor {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  border: groove 1em black;
+  margin-top: 3px;
+
+}
+
+.linkedin {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  border: groove 1em black;
+  margin-top: 3px;
+
+}
+
+.twitter {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  border: groove 1em black;
+  margin-top: 3px;
+
+}
+
+.instagram {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  border: groove 1em black;
+  margin-top: 3px;
+
+}
+
+.london {
+  color: greenyellow;
+}
+.frontend {
+  color: white;
+}
+
+.attribution {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 1440px) {
+  .cafe-border {
+      width: 60%; /* Ajuste la largeur pour les grands écrans */
+      padding: 40px; /* Ajuste le padding pour les grands écrans */
+  }
+
+  .content {
+      padding: 40px; /* Ajuste le padding pour les grands écrans */
+  }
+}
+
+/* Pour les écrans moyens (par exemple, entre 768px et 1439px) */
+@media (min-width: 768px) and (max-width: 1439px) {
+  .cafe-border {
+      width: 70%; /* Ajuste la largeur pour les écrans moyens */
+      padding: 30px; /* Ajuste le padding pour les écrans moyens */
+  }
+}
+
+/* Pour les petits écrans (par exemple, moins de 768px) */
+@media (max-width: 767px) {
+  .cafe-border {
+      width: 90%; /* Ajuste la largeur pour les petits écrans */
+      padding: 20px; /* Ajuste le padding pour les petits écrans */
+  }
+}
+
+.border {
+  background-color: #6F4E37; /* Café brun pour la bordure de fond */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optionnel pour un peu de style */
+  width: 80%; /* Largeur par défaut */
+  text-align: left;
+}
